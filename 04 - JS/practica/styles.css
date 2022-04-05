@@ -1,4 +1,14 @@
-body {
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* body {
   background-color: rgba(255, 0, 0, 0.7);
   color: #fff;
   padding: 0;
@@ -16,15 +26,7 @@ body {
   margin-bottom: 30px;
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .main-info {
   display: flex;
@@ -42,4 +44,4 @@ body {
   background-color: yellow;
   width: 40%;
   height: 15px;
-}
+} */
